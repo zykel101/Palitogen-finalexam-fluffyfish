@@ -1,0 +1,21 @@
+{
+  "name": "Flappy Fish",
+  "short_name": "FlappyFish",
+  "description": "A fun Flappy Fish game",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#4a8cff",
+  "theme_color": "#4a8cff",
+  "icons": [
+    {
+      "src": "assets/images/fish.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/fish.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

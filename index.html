@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Flappy Fish</title>
+    <meta name="description" content="A fun Flappy Fish game">
+    <meta name="theme-color" content="#4a8cff">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <style>
+       
+    </style>
+</head>
+
+<body>
+    <div id="game-wrapper">
+        <div id="game-container">
+            <div id="start-screen">
+                <h1>Flappy Fish</h1>
+                <button id="start-button" class="game-button">Start Game</button>
+                <button id="how-to-play-btn" class="game-button">How to Play</button>
+            </div>
+            
+            <div id="fish"></div>
+            <div id="score-display">Score: 0</div>
+            <div id="game-over">
+                <h2>Game Over!</h2>
+                <p id="final-score">Your score: 0</p>
+                <button id="play-again" class="game-button">Play Again</button>
+                <button id="return-to-menu" class="game-button">Main Menu</button>
+            </div>
+            <button id="install-btn">Install App</button>
+            <div id="offline-message">Offline Mode</div>
+        </div>
+    </div>
+
+    <audio id="flap-sound" src="assets/sounds/flap.mp3" preload="auto"></audio>
+    <audio id="hit-sound" src="assets/sounds/hit.mp3" preload="auto"></audio>
+    <audio id="score-sound" src="assets/sounds/score.mp3" preload="auto"></audio>
+    <audio id="bg-music" src="assets/sounds/background.mp3" loop preload="auto"></audio>
+
+    <script src="app.js"></script>
+</body>
+</html>
